@@ -26,4 +26,4 @@ function mapStateToProps(state) {
 
 export default connect(mapStateToProps, null)(RecipeList);
 
-// second connect argumment is an action creator but is null if there is no action at this point in time
+// second connect argumment is an action creator but is null if there is no action at this point in time.
