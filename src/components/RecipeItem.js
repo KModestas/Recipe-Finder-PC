@@ -9,7 +9,9 @@ class RecipeItem extends Component {
 
     return(
       <div className="recipe-item">
-      <div onClick={()=> this.props.favoriteRecipe(recipe)}>
+      <div
+        className='star'
+        onClick={()=> this.props.favoriteRecipe(recipe)}>
         &#9734;
       </div>
         <div className="recipe-text">
