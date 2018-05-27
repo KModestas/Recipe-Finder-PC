@@ -23,7 +23,7 @@ class RecipeItem extends Component {
       <div className="recipe-item">
       {
         this.state.favorited ?
-        <div></div>
+        <div className='star'>&#9733</div>
         :
         <div
           className='star'
