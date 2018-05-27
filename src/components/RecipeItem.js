@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import favoriteRecipe from '../actions';
 
 class RecipeItem extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      favorited: false
+    }
+  }
 
   render() {
 
