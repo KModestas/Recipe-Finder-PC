@@ -23,7 +23,7 @@ class RecipeItem extends Component {
       <div className="recipe-item">
       <div
         className='star'
-        onClick={()=> this.props.favoriteRecipe(recipe)}>
+        onClick={()=> this.favorite(recipe)}>
         &#9734;
       </div>
         <div className="recipe-text">
