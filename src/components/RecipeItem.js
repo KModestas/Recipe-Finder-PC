@@ -10,6 +10,11 @@ class RecipeItem extends Component {
     }
   }
 
+  favorite(recipe) {
+    this.props.favoriteRecipe(recipe)
+    this.setState({ favorited: true })
+  }
+
   render() {
 
     const { recipe } = this.props;
