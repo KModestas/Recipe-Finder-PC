@@ -4,6 +4,8 @@ import RecipeItem from './RecipeItem';
 
 class FavoriteRecipeList extends Component {
   render() {
-    <div></div>
+    <div>
+      <h4>Favourite Recipes:</h4>
+    </div>
   }
 }
