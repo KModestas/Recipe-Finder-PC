@@ -12,7 +12,8 @@ class FavoriteRecipeList extends Component {
             <RecipeItem
             key={i}
             recipe={recipe}
-            />
+            favoriteButton={false}
+          />
           )
         })
       }
