@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 class FavoriteRecipeList extends Component {
   render() {
     <div>
+      <h4><Link to='home'>Home</Link></h4>
       <h4>Favourite Recipes:</h4>
       {
         this.props.favoriteRecipes.map((recipe, i) => {
